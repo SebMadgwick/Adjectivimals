@@ -20,7 +20,7 @@ fclose(fid);
 % -------------------------------------------------------------------------
 % Generate names
 
-maxSize = 13;   % maximum number of charcters in name
+maxSize = 32;   % maximum number of charcters in name
 
 names = {};
 
