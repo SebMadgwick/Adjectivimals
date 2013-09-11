@@ -27,7 +27,7 @@ names = {};
 for ani = 1:length(an)
     for adi = 1:length(ad)
         name = strcat(ad{adi}, {' '}, an{ani}); 
-        if(length(name) < maxSize)
+        if(length(name{1}) < maxSize)
             names{length(names)+1} = name;
         end
     end
